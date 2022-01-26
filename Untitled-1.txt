@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> Hello </title>
+        <style>
+            *{
+               padding: 0px;
+               margin: 0px;
+              
+            }
+
+            .background {
+                position: relative;
+                width: 1600px;
+                height: 840px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-top: auto;
+                margin-bottom: auto;
+                padding-top: auto;
+                background-color: rgb(0, 255, 0);
+
+            }
+    </head>
+    <body>
+
+    <div></div>
+
+    </body>
