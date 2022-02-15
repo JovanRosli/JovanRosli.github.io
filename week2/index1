@@ -62,10 +62,11 @@
       
       .luar {
         position: relative;
-        width: 1000px;
+        width: 800px;
         height: 540px;
         background-color: #efefef;
-        margin: 10px auto;
+        margin: 50px auto;
+        z-index: 1;
       }
       
       .baris {
@@ -142,6 +143,16 @@
       .quarter_width_content:nth-child(4) {
         margin-right: 0;
       }
+      
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50px;
+        background-color: black;
+        z-index: 2;
+      }
     </style>
   </head>
   <body>
@@ -156,6 +167,9 @@
 
     <!--  </div>-->
     <!--</div>-->
+    <nav>
+      
+    </nav>
     
     <div class="luar">
       
@@ -191,6 +205,49 @@
         </div>
         <div class="halfcol">
           <div class="full_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="full_width_content"></div>
+        </div>
+      </div>
+      
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+        </div>
+      </div>
+      
+       <div class="baris">
+        <div class="fullcol">
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+          <div class="quarter_width_content"></div>
+        </div>
+      </div>
+      
+      <div class="baris">
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
+        </div>
+        <div class="halfcol">
+          <div class="half_width_content"></div>
+          <div class="half_width_content"></div>
         </div>
       </div>
       
